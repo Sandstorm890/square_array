@@ -1,3 +1,9 @@
+require "pry"
+
 def square_array(array)
-  # your code here
+  x = []
+  array.each do |num|
+    x << num * num
+  end
+  x
 end
